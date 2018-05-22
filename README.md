@@ -50,11 +50,12 @@ We use the user object from authentication system comes with Django, and import 
 from django.contrib.auth.models import User
 ```
 The current User table looks like:
+```
 ID  |name|password
 ----|----|----
 1   |Yiran|Dreamyira 
 2   |Emma|Dreamemma
-
+```
 
 **App**
 
@@ -67,13 +68,14 @@ App model is defined with three attributes:
 3. app_text (name of the map app)
 
 The current App table looks like:
+```
 ID  |user_id|app_text
 ----|----|----
 1   |2|Emma's first app 
 2   |2|Emma's second app
 3|1|Yiran's first app
 4|1|Yiran's second app
-
+```
 ### View
 A view is a “type” of Web page in Django application that generally serves a specific function and has a specific template.
 
