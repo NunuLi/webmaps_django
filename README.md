@@ -1,5 +1,5 @@
 # webmaps_django
-A project displays user's [ArcGIS JavaScript](https://developers.arcgis.com/javascript/3/) applications using Django Web Framework.
+A project displays user's [ArcGIS JavaScript](https://developers.arcgis.com/javascript/3/) applications using [Django Web Framework](https://www.djangoproject.com/).
 
 ## Django 
 Django is a free and open-source web framework, written in Python, which follows the **model-view-template** architectural pattern. 
