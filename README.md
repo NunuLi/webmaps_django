@@ -4,13 +4,13 @@ A project displays user's [ArcGIS JavaScript](https://developers.arcgis.com/java
 ## Django 
 Django is a free and open-source web framework, written in Python, which follows the **model-view-template** architectural pattern. 
 ## Set up on your localhost
-#### Requirements
+### Requirements
 1. Python
 2. Django
 ```bash
 pip install django
 ```
-#### Install and run locally
+### Install and run locally
 1. Clone or download from github.
 2. *cd* to the first webmap folder where holds manage.py.
 3. Start the Django development server. By default, this will start the development server on the internal IP and port 8000.  
@@ -27,4 +27,4 @@ Django version 2.0.5, using settings 'webmaps.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
-#### How this website works
+### How this website works
