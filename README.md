@@ -27,7 +27,7 @@ Django version 2.0.5, using settings 'webmaps.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
-### How this website works
+### How to use this website
 1. Open a browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 2. Log in through the **log in** link. We only have two users in the database right now.
 3. After log in, You will go back to the home page. The home page will be update with only the applications that user have.
