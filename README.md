@@ -76,6 +76,11 @@ ID  |user_id|app_text
 3|1|Yiran's first app
 4|1|Yiran's second app
 ```
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 ### View
 A view is a “type” of Web page in Django application that generally serves a specific function and has a specific template.
 
