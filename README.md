@@ -68,14 +68,14 @@ App model is defined with three attributes:
 3. app_text (name of the map app)
 
 The current App table looks like:
-```
-ID  |user_id|app_text
-----|----|----
-1   |2|Emma's first app 
-2   |2|Emma's second app
-3|1|Yiran's first app
-4|1|Yiran's second app
-```
+
+ID  |user_id|app_text|
+----|----|----|
+1|2|Emma's first app |
+2|2|Emma's second app|
+3|1|Yiran's first app|
+4|1|Yiran's second app|
+
 | Command | Description |
 | --- | --- |
 | git status | List all new or modified files |
