@@ -28,3 +28,32 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 ```
 ### How this website works
+1. Open a browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
+2. Log in through the **log in** link. We only have two users in the database right now.
+3. After log in, You will go back to the home page. The home page will be update with only the applications that user have.
+4. Click on the application link. You can go to each ArcGIS Javascript application page.
+5. Log out from the home page when you want to leave.
+
+## Design of website
+### URL
+A URL pattern is simply the general form of a URL - for example in this website: http://homepage/app_id/.
+
+To get from a URL to a view, Django uses what are known as ‘URLconfs’. A URLconf maps URL patterns to views.
+There are two URLconf in this website. One is in the project folder (webmap/webmap/urls.py), another one is in the *maps* application folder (webmap/maps/urls.py). 
+### Model
+1. User model
+
+Here we import user object from authentication system comes with Django in the model(webmap/maps/models.py). User objects are the core of the authentication system. They typically represent the people interacting with your site and are used to enable things like restricting access, registering user profiles, associating content with creators etc.
+```python
+from django.contrib.auth.models import User
+```
+
+ID  |Name|Password
+----|----|----
+1   |Yiran|Dreamyira 
+2   |Emma|Dreamemma
+
+
+2. App model
+### View
+### Template
