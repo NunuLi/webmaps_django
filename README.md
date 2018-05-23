@@ -29,7 +29,7 @@ Quit the server with CONTROL-C.
 ```
 ### How to use this website
 1. Open a browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
-2. Log in through the **log in** link. We only have two users in the database right now.
+2. Log in through the **log in** link. We only have two users in the database right now.You can find out the user name and password in the **Model** section below.
 3. After log in, You will go back to the home page. The home page will be update with only the applications that user have.
 4. Click on the application link. You can go to each ArcGIS Javascript application page.
 5. Log out from the home page when you want to leave.
