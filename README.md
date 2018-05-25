@@ -29,9 +29,9 @@ Quit the server with CONTROL-C.
 ```
 ### How to use this website
 1. Open a browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
-2. Log in through the **log in** link. We only have two users in the database right now. You can find out the user name and password in the **Model** section below. *Note*: Log in with user "Yiran" if you want to go to the administrator page [http://localhost:8000/admin/](http://localhost:8000/admin/). You can easily add/edit/delete user and user's app with GUI from the admin site.
+2. Log in through the **log in** link. There are only two users in the database right now. You can find out the user name and password in the **Model** section below. *Note*: Log in with user "Yiran" if you want to go to the administrator page [http://localhost:8000/admin/](http://localhost:8000/admin/). You can easily add/edit/delete user and user's app with GUI from the admin site.
 3. After log in, You will go back to the home page. The home page will be update with only the applications that user have.
-4. Click on the application link. You can go to each ArcGIS Javascript application page.
+4. Click on the application link and then you will go to each ArcGIS Javascript application page.
 5. Log out from the home page when you want to leave.
 
 ## Design of website
@@ -41,7 +41,7 @@ A URL pattern is simply the general form of a URL - for example in this website 
 To get from a URL to a view, Django uses what are known as ‘URLconfs’. A URLconf maps URL patterns to views.
 There are two URLconf in this website. One is in the project folder (webmaps/webmaps/urls.py), another one is in the *maps* application folder (webmaps/maps/urls.py). 
 ### Model
-Model contains the essential fields and behaviors of the data you're storing. Generally, each model maps to a single database table. In our simple website, we only have two models, **User** and **App**.
+Model contains the essential fields and behaviors of the data you're storing. Generally, each model maps to a single database table. In our simple website, there are only two models, **User** and **App**.
 
 **User**
 
